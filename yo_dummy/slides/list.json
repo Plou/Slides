@@ -25,7 +25,9 @@
         }
     ],
     [
-        "grunt.md"
+        "grunt.md",
+        "build.md",
+        "watch.md"
     ],
     [
         "bower.md"

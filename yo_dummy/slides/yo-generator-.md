@@ -10,4 +10,4 @@ note:
 
     $ install generator-reveal<br>
     $ yo reveal<br>
-    $ yo reveal:slide --note --attribute --<br>
+    $ yo reveal:slide --markdown<br>
