@@ -1,0 +1,37 @@
+[
+    [
+        "index.md",
+        "install.md",
+        "needed-packages.md"
+    ],
+    [
+        "a-workflow-story.md",
+        "help.md",
+        "what-can-we-do-about-it.md"
+    ],
+    [
+        "meet-yeoman.md",
+        "yo-grunt-bower.md"
+    ],
+    [
+        "yo.md",
+        "scaffolding-tool.md",
+        {
+            "filename": "yo-generator-.md",
+            "attr": {
+                "data-background": "",
+                "data-background-size": "100% auto"
+            }
+        }
+    ],
+    [
+        "grunt.md"
+    ],
+    [
+        "bower.md"
+    ],
+    [
+        "so.md",
+        "hooray.md"
+    ]
+]

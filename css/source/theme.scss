@@ -1,0 +1,63 @@
+/**
+ * Black theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700|Montserrat+Alternates:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #111;
+
+$mainFont: 'Open Sans', sans-serif;
+$linkColor: #e7ad52;
+$linkColorHover: lighten( $linkColor, 20% );
+$headingFont: 'Montserrat', Impact, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$selectionBackgroundColor: #e7aa3c;
+$mainFontSize: 24px;
+
+$grey: #eee;
+$blue: #1b91ff;
+$yellow: #e7aa3c;
+$orange: rgb(239, 145, 0);
+$red: #ff2c2d;
+$green: #17ff2e;
+
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+// See ../../bower_components/reveal.js/css/theme/README.md
+// for further explanations on how reveal.js themes work.
+.reveal section img { background-color: $grey; }
+
+.reveal h2,
+.reveal h3,
+.reveal h4 { font-family: "Montserrat Alternates", Arial, sans-serif; font-weight: 400; }
+.reveal h2 { font-size: 50px;  }
+
+.grey { color: $yellow; }
+.yellow { color: $yellow; }
+.orange { color: $orange; }
+.red { color: $red; }
+.green { color: $green; }
+.blue { color: $blue; }
+
+.reveal section img { display: block; margin: auto; }
+.reveal .editable { text-align:left; outline: none !important;}
+

@@ -1,0 +1,7 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Yo, Bower, Grunt & Dummy ",
+    "packageVersion": "0.0.0",
+    "useSass": true
+  }
+}
