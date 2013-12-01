@@ -1,3 +1,4 @@
+<div class="fragment">
 
 # YEOMAN
 ## <span class="orange">dummy</span>
@@ -10,3 +11,4 @@ note:
     efficent <br>
 
     www.nitrous.io/join/bAttIqa3p-o
+</div>
