@@ -44,7 +44,8 @@ module.exports = (grunt) ->
     connect:
       livereload:
         options:
-          port: 8080
+          port: grunt.option('port') || 8080
+
           # Change hostname to '0.0.0.0' to access
           # the server from outside.
           hostname: '0.0.0.0'
