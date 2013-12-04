@@ -8,6 +8,16 @@
 
 note:
 
+    https://github.com/yeoman/generator-generator/blob/master/app/index.js
+    https://github.com/slara/generator-reveal/blob/master/app/index.coffee
+
+    explain **app/** and **subgeneratorName/** structures
+
+    copy()
+    template()
+    prompt()
+
+
     $ install generator-reveal<br>
     $ yo reveal<br>
     $ yo reveal:slide --markdown<br>

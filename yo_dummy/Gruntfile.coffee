@@ -4,9 +4,10 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     watch:
-      livereload:
+      all:
         options:
-          livereload: true
+          livereload:
+            port: grunt.option('port') || 35729
         files: [
           'index.html'
           'slides/*.md'
@@ -42,10 +43,9 @@ module.exports = (grunt) ->
           'css/theme.css': 'css/source/theme.scss'
 
     connect:
-      livereload:
+      all:
         options:
-          port: grunt.option('port') || 8080
-
+          port: grunt.option('port') || 0
           # Change hostname to '0.0.0.0' to access
           # the server from outside.
           hostname: '0.0.0.0'
@@ -108,11 +108,11 @@ module.exports = (grunt) ->
       'jshint'
     ]
 
-  grunt.registerTask 'server',
+  grunt.registerTask 'serve',
     'Run presentation locally and start watch process (living document).', [
       'buildIndex'
       'sass'
-      'connect:livereload'
+      'connect'
       'watch'
     ]
 
