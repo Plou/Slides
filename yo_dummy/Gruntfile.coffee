@@ -10,8 +10,8 @@ module.exports = (grunt) ->
             port: grunt.option('port') || 35729
         files: [
           'index.html'
-          'slides/*.md'
-          'slides/*.html'
+          'slides/**/*.md'
+          'slides/**/*.html'
           'js/*.js'
           'css/*.css'
         ]
@@ -20,7 +20,7 @@ module.exports = (grunt) ->
         files: [
           'templates/_index.html'
           'templates/_section.html'
-          'slides/list.json'
+          'slides/**/list.json'
         ]
         tasks: ['buildIndex']
 
@@ -89,9 +89,10 @@ module.exports = (grunt) ->
   grunt.registerTask 'buildIndex',
     'Build index.html from templates/_index.html and slides/list.json.',
     ->
+      language = grunt.option('lang') || 'en'
       indexTemplate = grunt.file.read 'templates/_index.html'
       sectionTemplate = grunt.file.read 'templates/_section.html'
-      slides = grunt.file.readJSON 'slides/list.json'
+      slides = grunt.file.readJSON 'slides/'+language+'/list.json'
 
       html = grunt.template.process indexTemplate, data:
         slides:
@@ -100,6 +101,8 @@ module.exports = (grunt) ->
           grunt.template.process sectionTemplate, data:
             slide:
               slide
+            language:
+              language
       grunt.file.write 'index.html', html
 
   grunt.registerTask 'test',
