@@ -1,12 +1,12 @@
 ## A workflow <span class="orange">❤</span> story
 
-<p class="fragment" >Create repository</p>
-<p class="fragment" >Create virtual host</p>
-<p class="fragment" >local, dev, preprod, preprod</p>
-<p class="fragment" >Create base files, download dependencies</p>
+<p class="fragment" >Créer le *repository*</p>
+<p class="fragment" >Créer le *virtual host*</p>
+<p class="fragment" >local, dev, preprod, prod</p>
+<p class="fragment" >Créer les fichiers de base, télécharger les dépendences</p>
 <p class="fragment yellow" >code</p>
-<p class="fragment" >Compile less/sass &amp; compile Coffescript</p>
-<p class="fragment" >Minify ressources, optimize images ...</p>
-<p class="fragment" >Refresh browser</p>
-<p class="fragment" >Prepare to be production ready</p>
-<p class="fragment" >Push it to production</p>
+<p class="fragment" >Compiler le less/sass &amp; compiler le Coffescript</p>
+<p class="fragment" >*Minifier* les ressources, optimiser les images ...</p>
+<p class="fragment" >Rafraichir le navigateur</p>
+<p class="fragment" >Preparer le projet pour la production</p>
+<p class="fragment" >déployer en production</p>

@@ -1,6 +1,6 @@
 # Bower !
 
-## <span class="fragment">It's used for dependency management</span>
+## <span class="fragment">Il gère vos dependences</span>
 
 <div class="fragment editable" contenteditable>
   $ bower search

@@ -1,8 +1,8 @@
-# Almost there
+# Un dernier effort
 
-Let's finish the installation
+Il ne vous manque plus que les outils
 
-**npm** & **gem** are your friends
+**npm** & **gem** sont vos amis
 
 note:
 

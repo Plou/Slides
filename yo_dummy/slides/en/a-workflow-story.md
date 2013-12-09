@@ -2,7 +2,7 @@
 
 <p class="fragment" >Create repository</p>
 <p class="fragment" >Create virtual host</p>
-<p class="fragment" >local, dev, preprod, preprod</p>
+<p class="fragment" >local, dev, preprod, prod</p>
 <p class="fragment" >Create base files, download dependencies</p>
 <p class="fragment yellow" >code</p>
 <p class="fragment" >Compile less/sass &amp; compile Coffescript</p>

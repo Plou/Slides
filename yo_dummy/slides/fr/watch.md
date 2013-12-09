@@ -1,3 +1,8 @@
-# Watch
+# Observer
 
-## <span class="fragment">Watch and do whatever you want</span>
+## <span class="fragment">Observez et faites ce que vous voulez</span>
+
+
+note:
+
+    explain watch task & livereload

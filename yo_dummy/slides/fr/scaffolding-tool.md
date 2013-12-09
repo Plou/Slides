@@ -1,8 +1,8 @@
-## Yo scaffolds out a new application
+## Yo pose les fondations d'une application
 
-## <span class="fragment">Write your Grunt configuration</span>
+## <span class="fragment">Écris votre configuration de Grunt</span>
 
-## <span class="fragment">Pull in relevant Grunt tasks</span>
+## <span class="fragment">Récupère vos dépendances</span>
 
 note:
     Switch to Terminal

@@ -16,13 +16,7 @@
     [
         "yo.md",
         "scaffolding-tool.md",
-        {
-            "filename": "yo-generator-.md",
-            "attr": {
-                "data-background": "",
-                "data-background-size": "100% auto"
-            }
-        }
+        "yo-generator-.md"
     ],
     [
         "grunt.md",
@@ -34,6 +28,12 @@
     ],
     [
         "so.md",
-        "hooray.md"
+        {
+            "filename": "hooray.md",
+            "attr": {
+                "data-background": "http://mycdn1.theshirtlist.com/wp-content/uploads/2012/08/Hooray.jpg",
+                "data-background-size": "100% auto"
+            }
+        }
     ]
 ]

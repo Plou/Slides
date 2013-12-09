@@ -2,7 +2,7 @@
 
 ## <span class="fragment">Write your Grunt configuration</span>
 
-## <span class="fragment">Pull in relevant Grunt tasks</span>
+## <span class="fragment">Pull in your dependencies</span>
 
 note:
     Switch to Terminal

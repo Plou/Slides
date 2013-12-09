@@ -1,4 +1,4 @@
-# Building with Grunt
+# Compiler with Grunt
 
 ## <span class="fragment"> tasks </span>
 

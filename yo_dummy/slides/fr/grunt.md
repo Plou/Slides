@@ -1,3 +1,3 @@
 # Grunt ?
 
-## <span class="fragment">It's used to <span class="fragment">build</span><span class="fragment">, preview</span><span class="fragment"> &amp; test</span></span>
+## <span class="fragment">Sert <span class="fragment">à compiler</span><span class="fragment">, previsualiser</span><span class="fragment"> &amp; tester</span></span>

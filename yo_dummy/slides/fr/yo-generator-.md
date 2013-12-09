@@ -1,7 +1,7 @@
 ## Yo generator-* ?
-\* make a [wish](http://yeoman.io/community-generators.html)
+\* Faites un [voeu](http://yeoman.io/community-generators.html)
 
-## <span class="fragment">How about [making](https://github.com/slara/generator-reveal) a [presentation](https://github.com/hakimel/reveal.js/) about Yeoman ?</span>
+## <span class="fragment">Pourquoi ne pas [fabriquer](https://github.com/slara/generator-reveal) une [presentation](https://github.com/hakimel/reveal.js/) à propos de Yeoman ?</span>
 <div class="fragment editable" contenteditable>
   $ yo
 </div>
