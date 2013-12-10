@@ -7,7 +7,7 @@ module.exports = (grunt) ->
       all:
         options:
           livereload:
-            port: grunt.option('port') || 35729
+            port: grunt.option('liveport') || 35729
         files: [
           'index.html'
           'slides/**/*.md'
