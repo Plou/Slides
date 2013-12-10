@@ -1,7 +1,7 @@
 # Chaque chose en son temps
 
 
-**[Yeoman](http://yeoman.io)** et tous les outils que nous allons aborder necessitent **[nodeJs](http://nodejs.org/)**
+**[Yeoman](http://yeoman.io)** et tous les outils que nous allons aborder nécessitent **[nodeJs](http://nodejs.org/)**
 
 **[Git](http://git-scm.com/)** sera également de la partie
 

@@ -5,4 +5,5 @@
 
 <p class="fragment" >Launch project</p>
 <p class="fragment" >Code</p>
-<p class="fragment" >Watch<span class="fragment"> | Build</span><span class="fragment"> | Publish</span></p>
+<p class="fragment" >Watch<span class="fragment"> | Build</span></p>
+<p class="fragment" >Deploy</p>

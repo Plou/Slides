@@ -1,4 +1,4 @@
-### Il a un chapeau et trois outils
+### Il porte un chapeau et trois outils
 
 <div class="fragment"> ![Yo, grunt, Bower](http://raw.github.com/yeoman/yeoman.io/gh-pages/media/toolset.png) </div>
 

@@ -1,6 +1,6 @@
-# Compiler with Grunt
+# Compiler avec Grunt
 
-## <span class="fragment"> tasks </span>
+## <span class="fragment">Demandez, il fait !</span>
 
 note:
     go to grunt file
