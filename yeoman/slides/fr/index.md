@@ -1,7 +1,7 @@
 <div class="fragment">
 
 # YEOMAN
-## <span class="orange">dummy</span>
+## <span class="orange">modern workflow</span>
 
 note:
 
